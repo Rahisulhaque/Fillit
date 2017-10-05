@@ -6,7 +6,7 @@
 /*   By: dhuynh <dhuynh@student.42.us.org>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/10/04 00:27:45 by dhuynh            #+#    #+#             */
-/*   Updated: 2017/10/05 02:27:17 by dhuynh           ###   ########.fr       */
+/*   Updated: 2017/10/05 13:59:12 by rhaque           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,7 +52,7 @@ int					get_num_tets(char *fs);
 
 int					validate(char *filestring);
 
-int					recursive_solver(t_grid *grid, int *int_array, int num);
+int					recursive_solve(t_grid *grid, int *int_array, int num);
 
 t_grid				*create_grid(int size);
 void				free_grid(t_grid *grid);

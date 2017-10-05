@@ -6,7 +6,7 @@
 /*   By: dhuynh <dhuynh@student.42.us.org>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/10/04 01:24:40 by dhuynh            #+#    #+#             */
-/*   Updated: 2017/10/05 00:51:40 by dhuynh           ###   ########.fr       */
+/*   Updated: 2017/10/05 13:59:52 by rhaque           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ int		recursive_solve(t_grid *grid, int *int_array, int num)
 	{
 		if (what_function(grid, int_array[num], pos, ALPHABET[num]))
 		{
-			if (recursive_solver(grid, int_array, num + 1))
+			if (recursive_solve(grid, int_array, num + 1))
 				return (1);
 			what_cleartet(grid, int_array[num], pos);
 		}

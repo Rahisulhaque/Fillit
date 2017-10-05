@@ -6,7 +6,7 @@
 /*   By: dhuynh <dhuynh@student.42.us.org>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/10/04 00:07:58 by dhuynh            #+#    #+#             */
-/*   Updated: 2017/10/04 00:15:12 by dhuynh           ###   ########.fr       */
+/*   Updated: 2017/10/05 13:58:56 by rhaque           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ t_grid			*main_2(t_grid *grid, int *int_array)
 {
 	int size;
 
-	while (!recursive_solver(grid, int_array, 0))
+	while (!recursive_solve(grid, int_array, 0))
 	{
 		size = grid->size + 1;
 		free_grid(grid);
