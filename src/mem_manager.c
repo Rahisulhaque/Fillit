@@ -6,7 +6,7 @@
 /*   By: dhuynh <dhuynh@student.42.us.org>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/10/04 01:10:21 by dhuynh            #+#    #+#             */
-/*   Updated: 2017/10/04 01:24:00 by dhuynh           ###   ########.fr       */
+/*   Updated: 2017/10/05 00:40:27 by dhuynh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void		free_grid(t_grid *grid)
 
 t_grid		*create_grid(int size)
 {
-	t_grid	grid;
+	t_grid	*grid;
 
 	grid = (t_grid*)malloc(sizeof(t_grid));
 	grid->size = size;

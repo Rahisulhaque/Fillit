@@ -6,11 +6,11 @@
 /*   By: dhuynh <dhuynh@student.42.us.org>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/10/04 02:12:22 by dhuynh            #+#    #+#             */
-/*   Updated: 2017/10/04 02:17:20 by dhuynh           ###   ########.fr       */
+/*   Updated: 2017/10/05 01:02:42 by dhuynh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "fillit.h"
 
 char	*search_and_replace(char *s, char f, char r, int n)
 {

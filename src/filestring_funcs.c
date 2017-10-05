@@ -6,7 +6,7 @@
 /*   By: dhuynh <dhuynh@student.42.us.org>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/10/04 00:55:37 by dhuynh            #+#    #+#             */
-/*   Updated: 2017/10/04 02:22:41 by dhuynh           ###   ########.fr       */
+/*   Updated: 2017/10/05 00:33:33 by dhuynh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,7 +79,7 @@ char			*read_file(char *filename)
 	char	*new_buf;
 
 	buf = ft_strnew(BUFF);
-	if ((fd = open(filename, 0_RDONLY)) == -1)
+	if ((fd = open(filename, O_RDONLY)) == -1)
 		buf = ft_strcpy(buf, "error");
 	else
 	{

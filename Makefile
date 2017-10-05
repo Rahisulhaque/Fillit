@@ -6,7 +6,7 @@
 #    By: dhuynh <dhuynh@student.42.us.org>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/10/04 00:18:00 by dhuynh            #+#    #+#              #
-#    Updated: 2017/10/04 00:24:07 by dhuynh           ###   ########.fr        #
+#    Updated: 2017/10/05 01:08:45 by dhuynh           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ NAME = fillit
 
 C_FIL = *.c
 C_LOC = src
-S_SRC = $(addprefix $(C_LOC)/, $(C_FIL))
+C_SRC = $(addprefix $(C_LOC)/, $(C_FIL))
 
 O_FIL = *.o
 O_LOC = obj

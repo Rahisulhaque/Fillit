@@ -6,7 +6,7 @@
 /*   By: dhuynh <dhuynh@student.42.us.org>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/10/04 01:53:29 by dhuynh            #+#    #+#             */
-/*   Updated: 2017/10/04 02:04:17 by dhuynh           ###   ########.fr       */
+/*   Updated: 2017/10/05 00:43:20 by dhuynh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ static int		is_valid_tet(char *str)
 
 static int		is_valid_struct(char *str, int i, int j, int k)
 {
-	while (src[i])
+	while (str[i])
 	{
 		if (str[i] == '#')
 			j++;
